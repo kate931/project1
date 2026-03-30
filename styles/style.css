@@ -1,0 +1,28 @@
+.main{
+    box-sizing: border-box;
+    margin: 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sun_rays{
+    position: relative;
+    left: 32px;
+}
+#site_address{
+    position: relative;
+    bottom: 12px;
+    font-size: 15px;
+    margin: 15px;
+}
+.line_block{display: inline-block;}
+.right_pic{
+    float: right;
+    margin-top: -20px;
+}
+.text_on_pic_3{
+    color: #ECE8D9;
+    font-size: 14px;
+    line-height: 34px;
+    width: 60%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
