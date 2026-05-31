@@ -114,6 +114,21 @@ small{
 a{
     text-decoration: none;
 }
+a:hover{
+    border: 2px solid #ECE8D9;
+    scale: 1.1;
+}
+a:focus{
+    scale: 1.1;
+    border: 2px solid #ECE8D9;
+    background-color: #ECE8D9;
+    color: rgb(28, 63, 58, 1, 0.3);
+    transition: background-color 0.5s color 0.5s;
+}
+a:active{
+    scale: 1.1;
+    border: 2px solid #ECE8D9;
+}
 .big_indent{
     display: flex;
     justify-content: space-between;
