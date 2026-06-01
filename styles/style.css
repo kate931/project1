@@ -120,9 +120,11 @@ a{
 a:hover{
     border: 2px solid #ECE8D9;
     scale: 1.1;
+    width: fit-content;
 }
 a:focus{
     scale: 1.1;
+    width: fit-content;
     border: 2px solid #ECE8D9;
     background-color: #ECE8D9;
     color: rgb(28, 63, 58, 1, 0.3);
@@ -130,6 +132,7 @@ a:focus{
 }
 a:active{
     scale: 1.1;
+    width: fit-content;
     border: 2px solid #ECE8D9;
 }
 .big_indent{
