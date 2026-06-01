@@ -115,15 +115,14 @@ small{
 }
 a{
     text-decoration: none;
+    width: fit-content;
 }
 a:hover{
     border: 2px solid #ECE8D9;
     scale: 1.1;
-    width: fit-content;
 }
 a:focus{
     scale: 1.1;
-    width: fit-content;
     border: 2px solid #ECE8D9;
     background-color: #ECE8D9;
     color: rgb(28, 63, 58, 1, 0.3);
@@ -131,7 +130,6 @@ a:focus{
 }
 a:active{
     scale: 1.1;
-    width: fit-content;
     border: 2px solid #ECE8D9;
 }
 .big_indent{
@@ -316,7 +314,7 @@ a:active{
 .learn_bottom{
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 4px;
     width: fit-content;
 }
 .feature_bottom{
