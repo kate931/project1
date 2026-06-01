@@ -14,6 +14,9 @@
 }
 html {
   font-size: 16px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header{
     display: flex;
@@ -60,10 +63,10 @@ section{
 }
 .long_list{
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .block_list{
     display: flex;
@@ -130,9 +133,12 @@ a:active{
     border: 2px solid #ECE8D9;
 }
 .big_indent{
+    width: 1400px;
     display: flex;
-    justify-content: space-between;
-    gap: 4.5rem;
+    justify-content: center;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .arrow_pic{
     width: 1.5rem;
@@ -156,6 +162,7 @@ a:active{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin-left: 72px;
 }
 .wel_to_wil{
     color: #485B60;
@@ -168,9 +175,9 @@ a:active{
     width: 180px;
     height: 300px;
     background-color:#1C3F3A;
-    position: absolute;
-    top: 0%;
-    left: 80%;
+    position: relative;
+    right: 8%;
+    bottom: 112px;
 }
 .green_buttom{
     color: #F1F3F3;
@@ -227,10 +234,10 @@ a:active{
 .second_page{
     display: flex;
     justify-content: space-around;
-    flex-basis: 40%;
+    max-width: 40%;
     border: 1px solid #DDE3E4;
     margin-bottom: 6%;
-    padding: 0% 0% 3% 3%;
+    padding: 2%;
     background-image: url('../images/rays_lit_2_page.svg');
     background-position: top right;
     background-repeat: no-repeat;
@@ -279,7 +286,6 @@ a:active{
     height: 128px;
 }
 .lit_pic_coner{
-    margin-top: 26px;
     margin-bottom: 100px;
     width: 32px;
     height: 32px;
@@ -289,6 +295,7 @@ a:active{
     font-size: 11px;
     line-height: 32px;
     letter-spacing: 0.32px;
+    max-width: 318px;
     color: #485B60;
 }
 .link{
@@ -339,8 +346,9 @@ a:active{
     width: 31.875rem;
 }
 .big_indent_3{
-    margin-left: 190px;
-    margin-right: 190px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -416,6 +424,14 @@ a:active{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+.long_list_5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .page_5{
     display: flex;
@@ -531,9 +547,10 @@ a:active{
 }
 .green_block{
     display: flex;
-    width: 89%;
     margin-top: 10%;
     margin-bottom: 15%;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background-color: #1C3F3A;
     align-items: center;
 }
@@ -591,7 +608,7 @@ a:active{
 .right_sun_7{
     position: relative;
     margin-left: auto;
-    left: 7%;
+    left: 12%;
     bottom: 200px;
 }
 .big_indent_7{
@@ -623,8 +640,9 @@ a:active{
 .page_7{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-around;
-    margin: 5%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     gap: 2.5rem;
     flex-wrap: wrap;
 }
@@ -632,7 +650,7 @@ a:active{
     display: flex;
     flex-direction: column;
     flex-basis: 27%;
-    padding: 0% 2% 2% 2%;
+    padding: 0 0 1.5625rem 1.5625rem;
     border: #DDE3E4 1px solid;
 }
 .pic_7{
@@ -754,7 +772,7 @@ footer a{
     padding: 0.625rem;
     background-color: #DDE3E4;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1440px){
     html{
         font-size: 10px;
         width: 100%;
