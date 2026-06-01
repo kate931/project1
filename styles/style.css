@@ -59,7 +59,6 @@ section{
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
-    margin: 2%;
 }
 .long_list{
     display: flex;
@@ -100,7 +99,7 @@ h3{
     font-size: 23px;
     line-height: 32px;
     letter-spacing: 0.96px;
-    margin: 2%;
+    width: fit-content;
 }
 small{
     font-size: 15px;
@@ -138,6 +137,7 @@ a:active{
 .big_indent{
     width: 1400px;
     display: flex;
+    position: relative;
     justify-content: center;
     padding-left: 100px;
     margin-left: auto;
@@ -179,7 +179,7 @@ a:active{
     height: 300px;
     background-color:#1C3F3A;
     position: relative;
-    right: 8%;
+    right: 90px;
     bottom: 112px;
 }
 .green_buttom{
@@ -237,10 +237,11 @@ a:active{
 .second_page{
     display: flex;
     justify-content: space-around;
-    max-width: 40%;
     border: 1px solid #DDE3E4;
-    margin-bottom: 6%;
-    padding: 2%;
+    padding: 41px;
+    padding-right: 0;
+    max-width: 405px;
+    margin: 20px 0;
     background-image: url('../images/rays_lit_2_page.svg');
     background-position: top right;
     background-repeat: no-repeat;
@@ -251,21 +252,24 @@ a:active{
     flex-direction: column;
     margin-bottom: 3%;
     margin-top: 0%;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 .big_indent_2{
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 3%;
-    margin-top: 0%;
-    margin-left: 13%;
-    margin-right: 13%;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .big_indent_2_head{
-    width: 790px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 20px 0;
 }
 .pa_2{
-    margin-left: 20%;
+    margin-top: 100px;
     width: 900px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .sun_pic{
     width: 7.875rem;
@@ -278,7 +282,7 @@ a:active{
     position: relative;
     width: 184px;
     height: 184px;
-    left: 386px;
+    left: 350px;
 }
 .r_up_coner{
     display: flex;
@@ -289,7 +293,7 @@ a:active{
     height: 128px;
 }
 .lit_pic_coner{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     width: 32px;
     height: 32px;
 }
@@ -312,7 +316,8 @@ a:active{
 .learn_bottom{
     display: flex;
     align-items: center;
-    padding: 2% 2% 2% 0%;
+    padding: 0;
+    width: fit-content;
 }
 .feature_bottom{
     text-decoration: none;
@@ -348,13 +353,22 @@ a:active{
     flex-direction: column;
     width: 31.875rem;
 }
+.page_3_1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 0%;
+    margin-left: 190px;
+    margin-right: 190px;
+}
 .big_indent_3{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 .info_on_pic_3{
     width: 31.875rem;
@@ -417,10 +431,10 @@ a:active{
 }
 .sun_pic_4{
     position: relative;
-    width: 175px;
-    height: 175px;
-    left: 50px;
-    top: 130px;
+    width: 10.9375rem;
+    height: 10.9375rem;
+    left: 3.125rem;
+    top: 8.125rem;
 }
 .small_p_4{
     color: #485B60;
@@ -440,6 +454,7 @@ a:active{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 .head_5{
     display: flex;
@@ -450,13 +465,14 @@ a:active{
     display: flex;
     position: relative;
     left: 30%;
+    width: 8.375rem;
+    right: 8.375rem;
 }
 .list_5{
     display: flex;
     flex-direction: column;
     border: #DDE3E4 1px solid;
-    padding: 3%;
-    margin: 2%;
+    padding: 41px;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 .cartier{
@@ -478,6 +494,7 @@ a:active{
     line-height: 32px;
     letter-spacing: 0.72px;
     color: #102226;
+    max-width: 201px;
     padding-bottom: 20px;
 }
 .list_5 .learn_bottom{
@@ -783,6 +800,15 @@ footer a{
     .s_g{
         display: none;
     }
+    .big_indent{
+        width: 100vw;
+        justify-content: flex-start;
+        margin-left: auto;
+    }
+    .right_pic{
+        bottom: 88px;
+        left: 30px;
+    }
     .first_page{
         min-height: fit-content;
     }
@@ -792,14 +818,14 @@ footer a{
     .happy_customers{
         display: none;
     }
-    .right_pic{
-        left: 90%;
-    }
     .green_buttom{
         margin-bottom: 0%;
     }
     .cur_line{
         display: none;
+    }
+    .page_2{
+        margin: auto;
     }
     .pa_2{
         width: 80%;
@@ -807,6 +833,9 @@ footer a{
     }
     .feature_bottom{
         margin-left: 0%;
+    }
+    .page_3_1{
+        margin: auto;
     }
     .big_indent_3{
         margin-left: auto;
