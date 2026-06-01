@@ -757,16 +757,19 @@ footer a{
     color: #26534C;
 }
 .application_title{
+    font-family: "Inter";
     font-size: 2.25rem; 
     color: #26534C;
     line-height: 3rem;
 }
 .application_text{
+    font-family: "Inter";
     margin-top: 1.25rem;
     font-size: 1.25rem;
     color: #26534C;
 }
 .application_bottom{
+    font-family: "Roboto";
     margin-top: 1.25rem;
     font-size: 1.25rem;
     color: #26534C;
@@ -779,11 +782,13 @@ footer a{
     row-gap: 0.625rem;
 }
 .application_input{
+    font-family: "Roboto";
     font-size: 1rem;
     color: #26534C;
     padding: 0.25rem;
 }
 .application_close{
+    font-family: "Roboto";
     position: absolute;
     top: 0;
     right: 0;
