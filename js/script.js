@@ -17,4 +17,4 @@ document.addEventListener("DOMContentLoaded", function(){
     closeModalButton.addEventListener("click", function() {
         modalApplication.setAttribute("hidden", "true");
     });
-});
+}); 

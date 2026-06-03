@@ -340,7 +340,7 @@ a:active{
     flex-direction: column;
     margin-left: 7%;
     margin-right: 7%;
-    background-image: url('../images/icon_simple.png');
+    background-image: url('../images/icon_simple.svg');
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 3rem;
